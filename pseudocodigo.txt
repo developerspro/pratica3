@@ -1,0 +1,33 @@
+
+Algoritmo Soma
+
+declaração
+	numero1: inteiro;
+	numero2: inteiro;
+	resultado: inteiro;
+
+inicio
+	ESCREVA("digite um numero");
+	LEIA(numero1);
+	ESCREVA("Digite outro valor para somar");
+	LEIA(numero2);
+	resultado<-numero1+numero2;
+	
+	SE(resultado<10) ENTAO
+		ESCREVA("resultado menor que 10");
+	SENAO
+		SE(RESULTADO = 10) ENTAO
+			ESCREVA("resultado igual");
+		SENAO
+			ESCREVA("resultado maior que 10");
+		FIM-SE
+		
+	FIM-SE
+
+	
+	
+	
+	ESCREVA("O resultado é:");
+	ESCREVA(resultado);
+
+fim-algoritmo
